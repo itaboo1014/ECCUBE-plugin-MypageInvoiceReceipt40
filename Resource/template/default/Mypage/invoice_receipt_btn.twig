@@ -1,0 +1,11 @@
+{% if Order.OrderStatus.id == constant('Eccube\\Entity\\Master\\OrderStatus::DELIVERED') %}
+    <script>
+        $(function() {
+            $('.ec-orderRole__summary').append($('#ec-printBtnArea'));
+        });
+    </script>
+    <div id="ec-printBtnArea" style="padding: 0 16px;">
+        <a href="{{ url('mypage_print', {'order_no': Order.order_no, 'print': 'invoice'}) }}" class="ec-blockBtn" style="margin-bottom: 12px;" target="_blank">請求書</a>
+        <a href="{{ url('mypage_print', {'order_no': Order.order_no, 'print': 'receipt'}) }}" class="ec-blockBtn" style="margin-bottom: 12px;" target="_blank">領収書</a>
+    </div>
+{% endif %}
