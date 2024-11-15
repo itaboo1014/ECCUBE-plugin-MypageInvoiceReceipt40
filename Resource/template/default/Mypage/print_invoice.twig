@@ -216,25 +216,21 @@
             <tr>
                 <th class="text-center" style="width:8em">税率</th>
                 <th class="text-end">小計</th>
-                <th class="text-end">内消費税</th>
             </tr>
         </thead>
         <tbody>
             {% set total_price = 0 %}
             {% set total_tax = 0 %}
-            {% for rate, total in Order.total_by_tax_rate %}
+            {% for rate, total in Order.taxable_total_by_tax_rate %}
                 {% set total_price = total_price + total %}
-                {% set total_tax = total_tax + Order.tax_by_tax_rate[rate] %}
                 <tr>
                     <td class="text-center">{{ rate }} %対象</td>
                     <td class="text-end">{{ total|price }}</td>
-                    <td class="text-end">{{ Order.tax_by_tax_rate[rate]|price }}</td>
                 </tr>
             {% endfor %}
             <tr>
                 <td class="text-center">合計</td>
                 <td class="text-end">{{ total_price|price }}</td>
-                <td class="text-end">{{ total_tax|price }}</td>
             </tr>
         </tbody>
     </table>
