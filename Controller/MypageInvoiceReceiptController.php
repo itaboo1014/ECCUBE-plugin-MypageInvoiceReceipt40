@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin\BootechInvoiceReceipt40\Controller;
+namespace Plugin\BootechMypageInvoiceReceipt40\Controller;
 
 use Eccube\Controller\AbstractController;
 use Eccube\Repository\OrderRepository;
@@ -8,7 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
-class InvoiceReceiptController extends AbstractController
+class MypageInvoiceReceiptController extends AbstractController
 {
     /**
      * @var OrderRepository
@@ -63,7 +63,7 @@ class InvoiceReceiptController extends AbstractController
         $this->entityManager->persist($Order);
         $this->entityManager->flush();
 
-        return $this->render('@BootechInvoiceReceipt40/default/Mypage/print_' . $print . '.twig', [
+        return $this->render('@BootechMypageInvoiceReceipt40/default/Mypage/print_' . $print . '.twig', [
             'Order' => $Order,
         ]);
     }

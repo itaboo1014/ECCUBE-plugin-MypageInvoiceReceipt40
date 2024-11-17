@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin\BootechInvoiceReceipt40;
+namespace Plugin\BootechMypageInvoiceReceipt40;
 
 use Eccube\Entity\Master\OrderStatus;
 use Eccube\Event\TemplateEvent;
@@ -50,6 +50,6 @@ class Event implements EventSubscriberInterface
 
     public function onTemplateFrontMypageHistory(TemplateEvent $event)
     {
-        $event->addSnippet('@BootechInvoiceReceipt40/default/Mypage/invoice_receipt_btn.twig');
+        $event->addSnippet('@BootechMypageInvoiceReceipt40/default/Mypage/invoice_receipt_btn.twig');
     }
 }

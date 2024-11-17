@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin\BootechInvoiceReceipt40\Entity;
+namespace Plugin\BootechMypageInvoiceReceipt40\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Eccube\Annotation as Eccube;

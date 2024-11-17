@@ -1,5 +1,5 @@
 {
-  "name": "ec-cube/bootechinvoicereceipt40",
+  "name": "ec-cube/BootechMypageInvoiceReceipt40",
   "version": "4.0.0",
   "description": "マイページ領収書・請求書プラグイン(4.0系)",
   "type": "eccube-plugin",
@@ -7,6 +7,6 @@
     "ec-cube/plugin-installer": "~0.0.7 || ^2.0"
   },
   "extra": {
-    "code": "BootechInvoiceReceipt40"
+    "code": "BootechMypageInvoiceReceipt40"
   }
 }
