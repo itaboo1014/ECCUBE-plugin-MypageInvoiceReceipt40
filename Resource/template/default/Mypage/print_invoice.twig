@@ -128,6 +128,9 @@
                     {% if BaseInfo.phone_number|default is not empty %}
                         TEL {{ BaseInfo.phone_number }}<br>
                     {% endif %}
+                    {% if BaseInfo.invoice_registration_number|default is not empty %}
+                        登録番号 {{ BaseInfo.invoice_registration_number }}<br>
+                    {% endif %}
                     <img src="{{ asset('assets/img/common/favicon.ico') }}" alt="stamp" class="stamp-image">
                 </div>
             </div>
