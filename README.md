@@ -18,6 +18,9 @@
 <a href="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/3.png"><img src="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/3.png"></a>
 ※ 4.0系 は内消費税の表示はありません。
 <a href="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/4.png"><img src="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/4.png"></a>
+再発行を行なった場合
+<a href="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/5.png"><img src="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/5.png"></a>
+<a href="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/6.png"><img src="https://raw.githubusercontent.com/itaboo1014/ECCUBE-PluginReadmeAsset/main/MypageInvoiceReceipt/6.png"></a>
 
 ## ステータス変更時の処理
 
