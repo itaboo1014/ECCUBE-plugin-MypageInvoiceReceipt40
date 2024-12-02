@@ -134,6 +134,9 @@
                 {% if BaseInfo.email04|default is not empty %}
                     MAIL {{ BaseInfo.email04 }}<br>
                 {% endif %}
+                {% if BaseInfo.invoice_registration_number|default is not empty %}
+                    登録番号 {{ BaseInfo.invoice_registration_number }}<br>
+                {% endif %}
             </div>
         </div>
     </div>
