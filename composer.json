@@ -1,6 +1,6 @@
 {
   "name": "ec-cube/BootechMypageInvoiceReceipt40",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "マイページ領収書・請求書プラグイン(4.0系)",
   "type": "eccube-plugin",
   "require": {
