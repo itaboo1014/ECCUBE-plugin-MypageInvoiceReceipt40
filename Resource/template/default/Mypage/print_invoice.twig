@@ -204,7 +204,14 @@
                 {% set index = index + 1 %}
             {% endif %}
         {% endfor %}
-
+        {% if Order.use_point %}
+            <tr>
+                <td class="text-end">{{ index }}</td>
+                <td colspan="3">ポイント利用</td>
+                <td class="text-end">-{{ Order.use_point|price }}</td>
+            </tr>
+            {% set index = index + 1 %}
+        {% endif %}
         <tr>
             <td colspan="3" rowspan="3"></td>
             <td class="text-center">合計</td>
